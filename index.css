@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.parent{
+    background-image: url("image-header.jpg");
+    width: 800px;
+    height: 400px;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.bar{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+   width: 30px;
+   height: 6px;
+   background-color: white;
+   margin-bottom: 1px;
+}
+.nav{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+   
+}
+button{
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    color:  blue hsl(232, 10%, 55%);
+    background-color: white;
+    font-family: Barlow;
+    border-style: none;
+}
+.plus-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+.arrow{
+    padding-top: 20px;
+}
+.right{
+    border: 2px solid white;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+}
+.right h3{
+    padding: 20px;
+    font-size: 30px;
+    color:  hsl(213, 9%, 39%);
+}
+.right p{
+    padding: 10px;
+    font-size: 12px;
+    color:  hsl(213, 9%, 39%);
+}
+.right h5{
+    padding: 20px;
+    text-decoration: underline yellow;
+}
+.section-one{
+    display: flex;
+    margin-top: 130px;
+}
+.right-two{
+    border: 2px solid white;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding: 50px; 
+}
+.right-two h3{
+    padding: 20px;
+    font-size: 30px;
+    color:  hsl(213, 9%, 39%);
+}
+.right-two p{
+    padding: 10px;
+    font-size: 12px;
+    color:  hsl(213, 9%, 39%);
+}
+.right-two h5{
+    padding: 20px;
+    text-decoration: underline yellow;
+}
+.section-two{
+    display: flex;
+    position: relative;
+    bottom: 10px;
+}
+.section-three{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+.graphic{
+    position: relative;
+}
+.photo{
+    position: relative;
+}
+.graphic-text{
+    position: relative;
+    bottom: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.graphic-text h4{
+    margin-bottom: 20px;
+}
+.photo-text{
+    position: relative;
+    bottom: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.photo-text h4{
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+}
+.client{
+    display: flex;
+    margin-top: 100px;
+}
+.emily{
+    border-radius: 30px; 
+    margin-left: 100px;  
+}
+.thomas{
+    border-radius: 30px; 
+    margin-left: 100px;
+}
+.jennie{
+    border-radius: 30px; 
+    margin-left: 100px;
+}
+.girl{
+    margin-bottom: 30px;
+ }
+ .emily-text{
+     padding: 10px;
+     width: 300px;
+     height: 80px;
+     font-size: 10px;
+     text-align: center;
+     color: gray;
+ }
+ .emily-text h4{
+     padding: 10px;
+     color: black;
+ }
+ .thomas-text{
+    padding: 10px;
+    width: 300px;
+    height: 80px;
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+}
+.thomas-text h4{
+    padding: 10px;
+    color: black;
+}
+.jennie-text{
+    padding: 10px;
+    width: 300px;
+    height: 80px;
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+}
+.jennie-text h4{
+    padding: 10px;
+    color: black;
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.footer-1{
+    display: flex;
+    margin-top: 30px;
+}
+.footer-2{
+    width: 120%;
+    height: 200px;
+    background-color:  aquamarine;
+    text-align: center;
+    padding-top: 50px;
+  
+}
+.last{
+    color: hsl(210, 4%, 67%);
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .nav{ position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        width: 30%;
+        height: 150px;
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        display: none;
+    }
+    .new{ position: absolute;
+        top: 100px;
+        left: 150px;
+        right: 0;
+        width: 50%;
+        height: 200px;
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .parent{
+        background-image: url("image-header.jpg");
+        width: 500px;
+        height: 400px;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    nav{
+        display: flex;
+        width: 200px;
+        justify-content: space-between;   
+    }
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-top: 130px;
+    }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-three{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 130px;
+    }
+    .client{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        color: hsl(232, 10%, 55%)''
+    }
+    nav a{
+        text-decoration: none;
+        padding-bottom: 10px;
+    }
+    .logo{
+        color: hsl(232, 10%, 55%);
+    }
+    .graphic-text{
+        position: absolute;
+        bottom: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .photo-text{
+        position: absolute;
+        bottom: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .parent{
+        background-image: url("image-header.jpg");
+        width: 400px;
+        height: 400px;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    nav{
+        display: flex;
+        width: 200px;
+        justify-content: space-between;   
+    }
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 130px;
+    }
+    .section-two{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-three{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 130px;
+    }
+    .client{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        color: hsl(232, 10%, 55%)''
+    }
+    nav a{
+        text-decoration: none;
+        padding-bottom: 10px;
+    }
+    .logo{
+        color: hsl(232, 10%, 55%);
+    }
+}
